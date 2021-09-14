@@ -1,7 +1,3 @@
-import random
-import string
-
-from django.conf import settings
 from rest_framework import serializers
 from rest_framework.generics import get_object_or_404
 from rest_framework.validators import UniqueValidator
